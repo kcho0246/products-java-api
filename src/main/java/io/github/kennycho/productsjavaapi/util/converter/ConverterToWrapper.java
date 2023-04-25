@@ -9,7 +9,7 @@ import io.github.leandrocezar.productsjavaapi.wrapper.ResponseWrapper;
  * Class that convert <code>S</code> class to <code>T</code> object
  *
  *
- * @author Leandro Moreira Cezar
+ * @author 
  *
  * @param <T>
  * @param <S>
@@ -26,7 +26,7 @@ public class ConverterToWrapper<T extends ResponseWrapper, S> {
     /**
      * Conver a list of <code>S</code> class to a list of <code>T</code> ResponseWrapper class
      * 
-     * @author Leandro Moreira Cezar
+     * @author 
      *
      * @param result Iterable<S> 
      * @return Iterable<T>
@@ -43,7 +43,7 @@ public class ConverterToWrapper<T extends ResponseWrapper, S> {
     /***
      * Convert object S to T 
      * 
-     * @author Leandro Moreira Cezar
+     * @author 
      *
      * @param entity
      * @return

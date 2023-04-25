@@ -1,4 +1,4 @@
-package io.github.leandrocezar.productsjavaapi.dto;
+kennychopackage io.github.leandrocezar.productsjavaapi.dto;
 
 import java.io.Serializable;
 
@@ -6,7 +6,7 @@ import java.io.Serializable;
  * Base class to request body 
  *
  *
- * @author Leandro Moreira Cezar
+ * @author kennycho
  *
  */
 public class BaseDTO implements Serializable{

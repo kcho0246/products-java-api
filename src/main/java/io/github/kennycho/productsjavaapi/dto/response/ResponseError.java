@@ -1,4 +1,4 @@
-package io.github.leandrocezar.productsjavaapi.dto.response;
+package io.github.kennycho.productsjavaapi.dto.response;
 
 import org.springframework.http.HttpStatus;
 
@@ -11,7 +11,7 @@ import lombok.Getter;
  * The response error structure
  *
  *
- * @author Leandro Moreira Cezar
+ * @author 
  *
  */
 @AllArgsConstructor

@@ -17,7 +17,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 /***
  * Class to configure Swagger Documentation
  * 
- * @author Leandro Moreira Cezar
+ * @author 
  *
  */
 @Configuration
@@ -34,7 +34,7 @@ public class SwaggerConfiguration {
     /***
      * Configure all endpoint's into documentation
      * 
-     * @author Leandro Moreira Cezar
+     * @author 
      *
      * @return<code>Docket</code> object
      */
@@ -50,7 +50,7 @@ public class SwaggerConfiguration {
     /***
      * Configure API info to documentation
      * 
-     * @author Leandro Moreira Cezar
+     * @author kennycho
      *
      * @return <code>ApiInfo</code> object
      */
@@ -58,7 +58,7 @@ public class SwaggerConfiguration {
 	return new ApiInfoBuilder().title("Products Java API")
 		.description("Products Java API - Endpoint's documentation")
 		.version(releaseVersion.concat("_").concat(apiVersion))
-		.contact(new Contact("Leandro Moreira cezar", "", "leandrocezar.dev@gmail.com"))
+		.contact(new Contact("kennycho", "", "kenncho.dev@gmail.com"))
 		.build();
     }
 

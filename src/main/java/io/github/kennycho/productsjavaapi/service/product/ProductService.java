@@ -1,17 +1,17 @@
-package io.github.leandrocezar.productsjavaapi.service.product;
+package io.github.kennycho.productsjavaapi.service.product;
 
 import java.math.BigDecimal;
 import java.util.Optional;
 
-import io.github.leandrocezar.productsjavaapi.dto.model.product.ProductDTO;
-import io.github.leandrocezar.productsjavaapi.entity.product.ProductEntity;
-import io.github.leandrocezar.productsjavaapi.exception.RecordNotFoundException;
+import io.github.kennycho.productsjavaapi.dto.model.product.ProductDTO;
+import io.github.kennycho.productsjavaapi.entity.product.ProductEntity;
+import io.github.kennycho.productsjavaapi.exception.RecordNotFoundException;
 
 /***
  * Product service interface
  *
  *
- * @author Leandro Moreira Cezar
+ * @author 
  *
  */
 public interface ProductService {
@@ -20,7 +20,7 @@ public interface ProductService {
     /**
      * Find all products
      * 
-     * @author Leandro Moreira Cezar
+     * @author 
      *
      * @return Iterable<ProductEntity>
      */
@@ -29,7 +29,7 @@ public interface ProductService {
     /**
      * Find product by id 
      * 
-     * @author Leandro Moreira Cezar
+     * @author 
      *
      * @param id Product id
      * @return Iterable<ProductEntity>
@@ -39,7 +39,7 @@ public interface ProductService {
     /**
      * Find products by criteria
      * 
-     * @author Leandro Moreira Cezar
+     * @author 
      *
      * @param expression product name or description
      * @param minPrice product min price
@@ -51,7 +51,7 @@ public interface ProductService {
     /**
      * Add a product
      * 
-     * @author Leandro Moreira Cezar
+     * @author
      *
      * @param dto product data 
      * @return ProductEntity saved
@@ -61,7 +61,7 @@ public interface ProductService {
     /***
      * Update a product 
      * 
-     * @author Leandro Moreira Cezar
+     * @author 
      *
      * @param product product data
      * @param id product id
@@ -73,7 +73,7 @@ public interface ProductService {
     /**
      * Delete a product
      * 
-     * @author Leandro Moreira Cezar
+     * @author 
      *
      * @param id product id
      * @throws RecordNotFoundException Product not found

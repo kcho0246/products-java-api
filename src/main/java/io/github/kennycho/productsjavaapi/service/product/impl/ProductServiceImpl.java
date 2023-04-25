@@ -1,4 +1,4 @@
-package io.github.leandrocezar.productsjavaapi.service.product.impl;
+package io.github.kennycho.productsjavaapi.service.product.impl;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -16,19 +16,19 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
-import io.github.leandrocezar.productsjavaapi.dto.model.product.ProductDTO;
-import io.github.leandrocezar.productsjavaapi.entity.product.ProductEntity;
-import io.github.leandrocezar.productsjavaapi.exception.RecordNotFoundException;
-import io.github.leandrocezar.productsjavaapi.repository.product.ProductRepository;
-import io.github.leandrocezar.productsjavaapi.service.product.ProductService;
-import io.github.leandrocezar.productsjavaapi.util.mapper.GenericMapper;
+import io.github.kennycho.productsjavaapi.dto.model.product.ProductDTO;
+import io.github.kennycho.productsjavaapi.entity.product.ProductEntity;
+import io.github.kennycho.productsjavaapi.exception.RecordNotFoundException;
+import io.github.kennycho.productsjavaapi.repository.product.ProductRepository;
+import io.github.kennycho.productsjavaapi.service.product.ProductService;
+import io.github.kennycho.productsjavaapi.util.mapper.GenericMapper;
 import lombok.extern.log4j.Log4j2;
 
 /***
  * Product service implementation. This class has all business rules applied to do any operation,
  *
  *
- * @author Leandro Moreira Cezar
+ * @author 
  *
  */
 @Log4j2
@@ -125,7 +125,7 @@ public class ProductServiceImpl implements ProductService {
     /***
      * Return the specification to dinamyc query
      * 
-     * @author Leandro Moreira Cezar
+     * @author 
      *
      * @param expression product name or description
      * @param minPrice product min price

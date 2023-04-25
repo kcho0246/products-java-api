@@ -4,7 +4,7 @@ package io.github.leandrocezar.productsjavaapi.exception;
  * Record not found in the database exception 
  *
  *
- * @author Leandro Moreira Cezar
+ * @author
  *
  */
 public class RecordNotFoundException extends Exception {

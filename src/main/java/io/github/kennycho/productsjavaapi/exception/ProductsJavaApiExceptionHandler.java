@@ -15,7 +15,7 @@ import lombok.extern.log4j.Log4j2;
  * Global ExceptionHandler 
  *
  *
- * @author Leandro Moreira Cezar
+ * @author 
  *
  * @param <T>
  */
@@ -26,7 +26,7 @@ public class ProductsJavaApiExceptionHandler<T> {
     /**
      * Exception handling for Record not found in the database
      * 
-     * @author Leandro Moreira Cezar
+     * @author 
      *
      * @param exception
      * @return  <code>ResponseErro</code>
@@ -45,7 +45,7 @@ public class ProductsJavaApiExceptionHandler<T> {
     /***
      * Exception handling for invalid request (request validation)
      * 
-     * @author Leandro Moreira Cezar
+     * @author 
      *
      * @param exception
      * @return <code>ResponseError</code>
@@ -64,7 +64,7 @@ public class ProductsJavaApiExceptionHandler<T> {
     /**
      * Exception handlinf for unmapped exceptions
      * 
-     * @author Leandro Moreira Cezar
+     * @author 
      *
      * @param exception
      * @return <code>ResponseError</code>

@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
  * Component created to expose ModelMapper as Autowired
  *
  *
- * @author Leandro Moreira Cezar
+ * @author kennycho
  *
  */
 @Component

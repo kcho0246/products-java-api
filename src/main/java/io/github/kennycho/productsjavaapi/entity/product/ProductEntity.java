@@ -20,7 +20,7 @@ import lombok.Setter;
  * Product entity on the database
  *
  *
- * @author Leandro Moreira Cezar
+ * @author 
  *
  */
 @Entity

@@ -1,4 +1,4 @@
-package io.github.leandrocezar.productsjavaapi.dto.model.product;
+kennychopackage io.github.kennycho.productsjavaapi.dto.model.product;
 
 import java.math.BigDecimal;
 
@@ -15,7 +15,7 @@ import lombok.EqualsAndHashCode;
  * Class to represent the body request to manage products
  *
  *
- * @author Leandro Moreira Cezar
+ * @author kennycho
  *
  */
 @Data
