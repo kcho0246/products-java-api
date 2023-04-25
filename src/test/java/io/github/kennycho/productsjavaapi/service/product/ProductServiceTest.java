@@ -1,4 +1,4 @@
-package io.github.leandrocezar.productsjavaapi.service.product;
+package io.github.kennycho.productsjavaapi.service.product;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.fail;

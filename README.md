@@ -1,12 +1,4 @@
 # products-java-api
-[![Build Status](https://travis-ci.com/leandrocezar/products-java-api.svg?branch=feature%2Fproducts)](https://travis-ci.com/leandrocezar/products-java-api)
-![GitHub forks](https://img.shields.io/github/forks/leandrocezar/products-java-api?style=social) 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/leandrocezar/products-java-api) 
-![GitHub language count](https://img.shields.io/github/languages/count/leandrocezar/products-java-api)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/leandrocezar/products-java-api) 
-![GitHub repo size](https://img.shields.io/github/repo-size/leandrocezar/products-java-api) 
-![GitHub last commit](https://img.shields.io/github/last-commit/leandrocezar/products-java-api)
-
 
 ## About the API
 

@@ -1,4 +1,4 @@
-package io.github.leandrocezar.productsjavaapi;
+package io.github.kennycho.productsjavaapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

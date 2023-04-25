@@ -1,9 +1,9 @@
-package io.github.leandrocezar.productsjavaapi.wrapper.product;
+package io.github.kennycho.productsjavaapi.wrapper.product;
 
 import java.math.BigDecimal;
 
-import io.github.leandrocezar.productsjavaapi.entity.product.ProductEntity;
-import io.github.leandrocezar.productsjavaapi.wrapper.ResponseWrapper;
+import io.github.kennycho.productsjavaapi.entity.product.ProductEntity;
+import io.github.kennycho.productsjavaapi.wrapper.ResponseWrapper;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -14,7 +14,7 @@ import lombok.Setter;
  * Represents a product response json
  *
  *
- * @author Leandro Moreira Cezar
+ * @author kennycho
  *
  */
 @Getter

@@ -1,4 +1,4 @@
-package io.github.leandrocezar.productsjavaapi.controller.product;
+package io.github.kennycho.productsjavaapi.controller.product;
 
 import java.math.BigDecimal;
 
@@ -17,12 +17,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import io.github.leandrocezar.productsjavaapi.dto.model.product.ProductDTO;
-import io.github.leandrocezar.productsjavaapi.entity.product.ProductEntity;
-import io.github.leandrocezar.productsjavaapi.exception.RecordNotFoundException;
-import io.github.leandrocezar.productsjavaapi.service.product.ProductService;
-import io.github.leandrocezar.productsjavaapi.util.converter.ConverterToWrapper;
-import io.github.leandrocezar.productsjavaapi.wrapper.product.ProductWrapper;
+import io.github.kennycho.productsjavaapi.dto.model.product.ProductDTO;
+import io.github.kennycho.productsjavaapi.entity.product.ProductEntity;
+import io.github.kennycho.productsjavaapi.exception.RecordNotFoundException;
+import io.github.kennycho.productsjavaapi.service.product.ProductService;
+import io.github.kennycho.productsjavaapi.util.converter.ConverterToWrapper;
+import io.github.kennycho.productsjavaapi.wrapper.product.ProductWrapper;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
@@ -34,7 +34,7 @@ import lombok.extern.log4j.Log4j2;
  * Controller to manage products
  *
  *
- * @author Leandro Moreira Cezar
+ * @author Kenny Cho
  *
  */
 @Log4j2
@@ -55,7 +55,7 @@ public class ProductController {
     /***
      * Return all products in the database
      * 
-     * @author Leandro Moreira Cezar
+     * @author kenny cho
      *
      * @return ResponseEntity with a Iterable<ProductWrapper> object and the http status
      * 
@@ -77,7 +77,7 @@ public class ProductController {
     /***
      * Return a product searching by ID
      * 
-     * @author Leandro Moreira Cezar
+     * @author kennycho
      *
      * @param id Product id
      * @return ResponseEntity with a ProductWrapper object and the http status
@@ -101,7 +101,7 @@ public class ProductController {
     /**
      * Return a list of products searching by criteria
      * 
-     * @author Leandro Moreira Cezar
+     * @author kennycho
      *
      * @param expression value to match on product name or description attributes
      * @param minPrice Product min price
@@ -127,7 +127,7 @@ public class ProductController {
     /**
      * Add a new product on the database
      * 
-     * @author Leandro Moreira Cezar
+     * @author kennycho
      *
      * @param request ProductDTO object containing the data to save
      * @return ResponseEntity with a ProductWrapper object and the http status
@@ -152,7 +152,7 @@ public class ProductController {
     /**
      * Update product on the database
      * 
-     * @author Leandro Moreira Cezar
+     * @author kennycho
      *
      * @param id Product id
      * @param request ProductDTO object containing the data to save
@@ -181,7 +181,7 @@ public class ProductController {
     /**
      * Delete a product from the database
      * 
-     * @author Leandro Moreira Cezar
+     * @author kennycho
      *
      * @param id Product id
      * @return 
